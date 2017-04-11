@@ -1,0 +1,7 @@
+<templateSet group="PHP">
+  <template name="removefile" value="&#10;/**&#10; * @REMOVE_FILE&#10; *&#10; * AS OF: 2016-01-26&#10; * This file does NOT appear to be used anywhere.&#10; *&#10; * There is a duplicate file in the dbadmin directory that&#10; * is used.&#10; *&#10; * It has NOT been updated with Config Tokens&#10; */&#10;" description="Comment Block for Files to Remove" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

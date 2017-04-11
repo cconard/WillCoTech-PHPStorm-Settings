@@ -1,0 +1,33 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d7fbdf9d-5a19-4a7f-a590-06a54bff0eaf" name="Krypton" url="http://atcts.cconard.krypton.local/atcts/">
+        <fileTransfer host="krypton.local" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a7e9addd-6d8c-4c4f-bc36-b02d74d2c49c" name="Alderaan" url="http://suitecrm.local">
+        <fileTransfer host="alderaan.local" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d747df0f-c7d7-4f4f-92cf-69e5c3af419c" name="Krypton IASTAR" url="http://atcts.cconard.krypton.local/atcts/">
+        <fileTransfer host="krypton.local" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" maxConnections="4" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0a8e77f6-3588-4214-8c2e-a447359463ca" name="Localhost Territory Reservation" url="http://localhost/territory-reservation">
+        <fileTransfer port="0" mountedRoot="/Library/WebServer/Documents/territory-reservation" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</application>
