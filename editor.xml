@@ -21,11 +21,18 @@
       <option name="EFFECT_COLOR" value="3c3f41" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
+    <pattern pattern="@BJS" />
+    <pattern pattern="@RJW" />
     <filter name="CEC">
       <pattern index="2" />
     </filter>
     <filter name="Remove Files">
       <pattern index="3" />
+    </filter>
+    <filter name="DEV NAME">
+      <pattern index="5" />
+      <pattern index="4" />
+      <pattern index="2" />
     </filter>
   </component>
 </application>
