@@ -15,24 +15,30 @@
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
     <pattern icon="important" pattern="@CEC" />
-    <pattern useCustomColors="true" pattern="@REMOVE_FILE">
-      <option name="FOREGROUND" value="a8c023" />
+    <pattern icon="important" useCustomColors="true" pattern="@REMOVE_FILE">
+      <option name="FOREGROUND" value="c00000" />
       <option name="FONT_TYPE" value="3" />
       <option name="EFFECT_COLOR" value="3c3f41" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
     <pattern pattern="@BJS" />
     <pattern pattern="@RJW" />
+    <pattern icon="important" useCustomColors="true" pattern="@REMOVE_FUNCTION">
+      <option name="FOREGROUND" value="c00000" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
     <filter name="CEC">
       <pattern index="2" />
     </filter>
     <filter name="Remove Files">
       <pattern index="3" />
+      <pattern index="6" />
     </filter>
     <filter name="DEV NAME">
-      <pattern index="5" />
-      <pattern index="4" />
       <pattern index="2" />
+      <pattern index="4" />
+      <pattern index="5" />
     </filter>
   </component>
 </application>
