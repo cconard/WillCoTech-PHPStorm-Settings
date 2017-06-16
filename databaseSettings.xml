@@ -3,6 +3,7 @@
     <option name="reuse-result-tab" value="false" />
     <option name="execute-inside-option" value="2" />
     <option name="execute-selection-option" value="1" />
+    <option name="ddl-editor-confirm-loss" value="false" />
     <text-mode>
       <parameter-patterns>
         <parameter-pattern value="?\d+" />
