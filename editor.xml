@@ -28,6 +28,11 @@
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
+    <pattern useCustomColors="true" pattern="@replyto">
+      <option name="FOREGROUND" value="c000a7" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
     <filter name="CEC">
       <pattern index="2" />
     </filter>
@@ -36,9 +41,9 @@
       <pattern index="6" />
     </filter>
     <filter name="DEV NAME">
-      <pattern index="2" />
-      <pattern index="4" />
       <pattern index="5" />
+      <pattern index="4" />
+      <pattern index="2" />
     </filter>
   </component>
 </application>
