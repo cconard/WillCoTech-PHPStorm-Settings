@@ -28,6 +28,14 @@
       <webServer id="0a8e77f6-3588-4214-8c2e-a447359463ca" name="Localhost Territory Reservation" url="http://localhost/territory-reservation">
         <fileTransfer port="0" mountedRoot="/Library/WebServer/Documents/territory-reservation" accessType="MOUNT" />
       </webServer>
+      <webServer id="a446008b-ee74-47b3-9325-7a7de6fb0caf" name="support.iastar.net" url="http://dev.support.iastar.net">
+        <fileTransfer host="support.iastar.net" port="22" privateKey="C:\Users\carlc\.ssh\WillCoTech-MacBookPro\id_rsa" rootFolder="/var/www/dev.support.iastar.net" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
