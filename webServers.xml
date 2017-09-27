@@ -36,6 +36,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="9d206acf-1523-45cc-8743-a1a4ecebe861" name="Rackspace" url="http://rackspace.iastar.net">
+        <fileTransfer host="rackspace.iastar.net" port="22" privateKey="C:\Users\carlc\.ssh\WillCoTech-MacBookPro\id_rsa" rootFolder="/var/www/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
