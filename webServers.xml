@@ -10,7 +10,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="d747df0f-c7d7-4f4f-92cf-69e5c3af419c" name="Krypton IASTAR" url="http://atcts.cconard.krypton.local/atcts/">
-        <fileTransfer host="krypton.local" port="22" privateKey="C:\Users\carlc\.ssh\WillCoTech-MacBookPro\id_rsa" accessType="SFTP" keyPair="true">
+        <fileTransfer host="krypton.local" port="22" privateKey="C:\Users\carlc\.ssh\WillCoTech.id_rsa" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" maxConnections="4" />
           </advancedOptions>
