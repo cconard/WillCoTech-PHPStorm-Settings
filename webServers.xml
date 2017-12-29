@@ -36,14 +36,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="5eb08c7b-6da8-461d-a639-b7a9873546bc" name="Metisentry Jitsu" url="http://web.metisentry/">
-        <fileTransfer host="web.metisentry" port="22" rootFolder="/var/www/html/jitsu" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
     </option>
   </component>
 </application>
