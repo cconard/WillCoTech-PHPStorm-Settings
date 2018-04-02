@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="logforce" value="Log::force(__FILE__.'::'.__FUNCTION__.'::'.__LINE__.&quot;$END$&quot;); // @CEC" description="Log Class/File Location Information" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
